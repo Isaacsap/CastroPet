@@ -1,0 +1,279 @@
+
+
+body{
+
+    font-family: 'Atma', Courier, monospace;
+    font-weight: 400;
+    background-image: url('../imgs/background-02.jpeg');
+    height: 100%;
+    width: 100vw;
+
+}
+
+.logo{
+    height: 7rem;
+    width: 12rem;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 15px;
+    font-weight: 600;
+    max-width: 2700px;
+}
+
+ul.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 20px;
+    
+}
+.menu li{
+    margin: 25px;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+    
+}
+
+.menu li a:hover{
+    background-color: rgb(85, 225, 235);
+    color: rgb(255, 171, 60);
+    border-radius: 20px;
+}
+.apresentation{
+    border: solid rgb(255, 178, 78);
+    box-shadow: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+} 
+    
+.intro{
+    display: flex;
+    max-width: 2220px;
+    max-height: 1050px,;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.contato-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 800;
+    font-size: 30px;
+    color: aqua;
+}
+
+.num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    width: 850px;
+    padding-top: 40px;
+}
+a.wpp{
+    max-width: 500px;
+    transition: 08s, ease-in-out;
+}
+a.wpp:hover{
+    background-color: rgb(55, 175, 55);
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+a.endereco{
+    max-width: 500px;
+    justify-content: center;
+    transition: 08s, ease-in-out;
+}
+a.endereco:hover{
+    background-color: rgb(55, 175, 55);
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.aquarismo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aquarismo h2{
+    color: rgb(255, 166, 0);
+    filter: drop-shadow(2px 4px 6px white);
+}
+.aquarismo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(85, 225, 235);
+    width: 550px;
+    font-size: 40px;
+    margin-top: 60px;
+    border-radius: 20px;
+    color: rgb(241, 157, 61);
+    box-shadow: 1px 1px 1px 1px;
+}
+.aquarismo h3{
+    display: flex;
+    font-size: 35px;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline 2px;
+    color: rgb(248, 189, 63);
+}
+.galery-container{
+    width: 100%;
+    padding: 30px 0;
+}
+.filho{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 20px 20px 10px 10px;
+    box-shadow: #fff;
+}
+
+.galery-container h4{
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(45, 209, 209);
+    box-sizing: border-box;
+}
+
+.galery-container .neto{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(255, 178, 34, 0.219);
+    border-radius: 15px;
+}
+
+.galery-container .neto{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.galery-container .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 10px;}
+
+.galery-container .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.galery-container .image:hover img{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .galery-container .image{
+        flex: 33.33%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .galery-container .image{
+        flex: 50%;
+    }
+
+    .galery-container h4{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .galery-container .image{
+        flex: 100%;
+    }
+}
+
+.estetica{
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;  
+    justify-content: center;
+}
+
+.estetica-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    max-width: 100%;    
+    filter: drop-shadow(5px 5px 6px #fff);
+}
+.estetica h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 166, 0);
+    color: rgb(150, 237, 243);
+    filter: drop-shadow(1px 1px 6px rgb(248, 184, 44));
+    width: 550px;
+    border-radius: 25px;
+}
+.sub-estetica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: center;
+    
+   
+}
+.txt-estetica{
+    max-width: 2200px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(23, 220, 238);
+
+}
+
+.txt-estetica p{
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 2px 2px rgb(252, 205, 51));
+}
